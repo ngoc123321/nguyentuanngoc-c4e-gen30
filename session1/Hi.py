@@ -68,4 +68,30 @@
 # end_fill()
 # mainloop()
 
-n = int(input("nhap n"))
+# n = int(input("nhap n"))
+
+
+from turtle import * 
+shape('turtle')
+color('red','white')
+for i in range(100):
+    left(30)
+    forward(100)
+    right(60)
+    forward(100)
+    right(120)
+    forward(100)
+    right(60)
+    forward(100)
+    left(30)
+    left(30)
+    forward(100)
+    right(60)
+    forward(100)
+    right(120)
+    forward(100)
+    right(60)
+    forward(100)
+    left(30)
+    left(90)
+mainloop()
